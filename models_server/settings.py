@@ -25,8 +25,7 @@ SECRET_KEY = "django-insecure-13-jw2ssx(0a#82shnl4!+hl$b0-fy#f%n8-qtm4&8(6hd&l%&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['api.gerovlabs.com', '84.247.172.213']
 
 # Application definition
 
