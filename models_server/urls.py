@@ -20,5 +20,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('predictor.urls')),  # Include the predictor app URLs
+    path('v1/', include('predictor.urls')),  # Include the predictor app URLs
 ]
